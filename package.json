@@ -1,0 +1,25 @@
+{
+  "name": "@richardhuf/origin-design-tokens",
+  "version": "0.1.0",
+  "description": "Design tokens package",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardhuf84/origin-design-tokens.git"
+  },
+  "keywords": [
+    "design-tokens"
+  ],
+  "author": "@richardhuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardhuf84/origin-design-tokens/issues"
+  },
+  "homepage": "https://github.com/richardhuf84/origin-design-tokens#readme",
+  "dependencies": {
+    "auto": "^10.32.5"
+  }
+}

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc --module ESNext --outDir './dist' --watch index.ts",
-    "test": "test"
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,13 @@
   "dependencies": {
     "auto": "^10.32.5",
     "typescript": "^4.5.4"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "conventional-commits"
+    ],
+    "onlyPublishWithReleaseLabel": true
   }
 }
